@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:orientation="vertical">
+       <TextView
+           style="@style/Button_style"
+           android:text="@string/no_birthdays"
+           android:gravity="center"/>
+        <TextView
+            style="@style/Button_style"
+            android:text="@string/birthday"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            style="@style/Button_style"
+            android:text="@string/invite"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

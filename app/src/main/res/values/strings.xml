@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TabLayout Demo</string>
+
+    <string name="no_birthdays">NO UPCOMING</string>
+    <string name="birthday">BIRTHDAY FOUND!</string>
+    <string name="invite">Invite Your Friends</string>
+</resources>
